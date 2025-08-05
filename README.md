@@ -7,3 +7,5 @@
 ## How to run tests
 - UI mode: npx playwright test --ui
 - headless mode: npx playwright test
+
+test
