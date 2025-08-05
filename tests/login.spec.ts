@@ -21,7 +21,7 @@ test.describe('Login testing', () => {
         await expect(page).toHaveURL(inventoryPage.inventoryUrl);
     });
 
-    test('Login with invalid password should ', async ({ page }) => {
+    test('Login with invalid password should fail ', async ({ page }) => {
         await loginPage.login(credentials.invalidUser.username, credentials.invalidUser.password);
         await expect(loginPage.errorMessage).toBeVisible();
         await expect(loginPage.errorMessage).toHaveText(loginPage.wrongPasswordMessage);
