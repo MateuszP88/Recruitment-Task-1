@@ -1,30 +1,28 @@
 # Recruitment-Task-1
 
-📘 Playwright Test Suite
-
 This repository contains automated end-to-end tests written using Microsoft Playwright. Follow the instructions below to set up your environment and run the tests.
 
-✅ Prerequisites
+## Prerequisites
 Before running the tests, make sure you have the following installed:
 
   Node.js (v16 or higher recommended)
 
   Git (optional, for cloning the repo)
 
-🚀 Getting Started
-1. Clone the Repository
+## Getting Started
+**1. Clone the Repository**
 
   git clone git@github.com:MateuszP88/Recruitment-Task-1.git
 
-2. Install Dependencies
+**2. Install Dependencies**
 
   npm install
 
-3. Install Playwright Browsers
+**3. Install Playwright Browsers**
 
   npm init playwright@latest
 
-🧪 Running Tests
+## Running Tests
 You can run all tests with:
 
   npx playwright test
